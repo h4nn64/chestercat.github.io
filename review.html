@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Oswald"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open Sans"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <body class="w3-light-grey">
+    <!-- Navigation bar -->
+  <div class="w3-bar w3-black w3-hide-small">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="reviews.html" class="w3-bar-item w3-button">Reviews</a>
+    <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+  </div>
+
+<!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>CHESTER CAT</b></h1>
+    <h6>Welcome to <span class="w3-tag">Chester's music reviews</span></h6>
+  </header>
+      
+      <!-- Grid -->
+      <div class="w3-row w3-padding w3-border">
+        <!-- Blog entries -->
+        <div style="padding: 32px;">
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>JUNNY</h3>
+              <h5>
+                <a href="https://open.spotify.com/track/2CwE41FCKT4rr8WmBsOrFr?si=d97968857411465d">Song: Thank You</a>
+              </h5>
+            </div>
+            
+            <center><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span></center>
+
+            <div class="w3-justify">
+              <img
+                src="img/junny.jpg"
+                alt="Girl Hat"
+                style="width: 100%;"
+                class="w3-padding-16"
+              />
+              <p>
+                Although being an older song of Korean-American artist Junny, Thank You still caught the ears of Chester Cat with its R&B vibes. Listeners can enjoy this chill music while studying or taking their daily walks, and still enjoy a boost of energy with its catchy rhythmic. Junny talks about how appreciative he is of his fans and listeners, but the song can be implied for anyone thanking others' support. Junny also demonstrates his wide vocal range as he sings charismatically lower in verses and high during the choruses. Chester Cat warns that despite this being a nice song to groove to, it may not be everyone's cup of tea. However, Chester Cat still recommends everyone to give this underrated song a chance! 
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo1')"
+                  id="myBtn"
+                >
+                  <b>Replies </b> <span class="w3-tag w3-white">1</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <div
+                class="w3-row w3-margin-bottom"
+                id="demo1"
+                style="display: none;"
+              >
+              <div class="w3-col l2 m3">
+                  <img src="img/commenters.jpeg" style="width: 90px;" />
+              </div>
+              <h4>
+                    George
+                    <span class="w3-opacity w3-medium"
+                      >May 3, 2015, 6:32 PM</span
+                    >
+                  </h4>
+                  <p>Gave it a listen and actually really liked it!</p>
+                <hr />
+                
+                  
+                </div><div class="w3-col l10 m9">
+                
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>DOJA CAT</h3>
+              <h5>
+                <a href="https://open.spotify.com/track/6Uj1ctrBOjOas8xZXGqKk4?si=71462797015648a9">Song: Woman</a>
+              </h5>
+            </div>
+            
+            <center><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span></center>
+
+            <div class="w3-justify">
+              <img
+                src="img/dojacat.jpg"
+                alt="Men in Hats"
+                style="width: 100%;"
+                class="w3-padding-16"
+              />
+              <p>
+                Woman is the opening song from Doja Cat's newest album Planet Her. The track incorporates afrobeats with modern pop, creating a unique sound behind the song's celebration of femininity. Doja Cat expertly weaves her wittisisms with the empowering tune while exploring the niches of womanhood and what it means to her. "Woman" by Doja Cat does not fail to impress and gains Chester Cat's stamp of approval!
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo2')"
+                >
+                  <b>Replies </b> <span class="w3-tag w3-white">2</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+
+              <!-- Example of comment field -->
+              <div id="demo2" style="display: none;">
+                <div class="w3-row">
+                  <hr />
+                  <div class="w3-col l2 m3">
+                    <img src="img/commenters.jpeg" style="width: 90px;" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Amber
+                      <span class="w3-opacity w3-medium"
+                        >April 26, 2015, 10:52 PM</span
+                      >
+                    </h4>
+                    <p>
+                      Love your blog page! Simply the best! 
+                    </p>
+                    <br />
+                  </div>
+                </div>
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img src="img/commenters.jpeg" style="width: 90px;" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Angie
+                      <span class="w3-opacity w3-medium"
+                        >April 23, 2015, 9:12 PM</span
+                      >
+                    </h4>
+                    <p>Love Doja Cat!! She is my idol :) </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>Billie Eilish</h3>
+              <h5>
+                <a href="https://open.spotify.com/track/4RVwu0g32PAqgUiJoXsdF8?si=fed1df1992be4319">Song: Happier Than Ever</a>
+              </h5>
+            </div>
+            
+            <!-- Add icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <center><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span></center>
+
+            <div class="w3-justify">
+              <img
+                src="img/billie.jpeg"
+                alt="Runway"
+                style="width: 100%;"
+                class="w3-padding-16"
+              />
+              <p>
+                Happier Than Ever is Billie's title song from her second studio album. Incorporating two different music genres, the first half of the song follows a 4/4 beat with a gentle flow using an acoustic guitar and Billie's soft voice. Towards the halfway mark, the instrumental transitions from acoustic to electric guitar and a 3/4 sway. Finneas O'Connell blends the two genres despite the duality between its lullaby and rock type halves. Billie expresses the lyrics of the song soulfully as she describes her experience of being emotionally healthier without someone who previously caused issues. Listeners will find themselves listening more and more to this song as its catchy transition becomes more familiar. Incredibly well written, Happier Than Ever gains Chester Cat's stamp of approval.
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo3')"
+                >
+                  <b>Replies </b> <span class="w3-tag w3-white">3</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+
+              <!-- Example of comment field -->
+              <div id="demo3" style="display: none;">
+                <hr />
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img
+                      src="img/commenters.jpeg"
+                      style="width: 90px;"
+                    />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Jane
+                      <span class="w3-opacity w3-medium"
+                        >April 10, 2015, 7:22 PM</span
+                      >
+                    </h4>
+                    <p>I agree with this review. </p>
+                  </div>
+                </div>
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img src="img/commenters.jpeg" style="width: 90px;" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      John
+                      <span class="w3-opacity w3-medium"
+                        >April 8, 2015, 10:32 PM</span
+                      >
+                    </h4>
+                    <p>
+                      This is my favourite song!
+                    </p>
+                  </div>
+                </div>
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img src="img/commenters.jpeg" style="width: 90px;" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Anja
+                      <span class="w3-opacity w3-medium"
+                        >April 7, 2015, 9:12 PM</span
+                      >
+                    </h4>
+                    <p>Cant wait for her next album!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <!-- END BLOG ENTRIES -->
+
+
+
+      <!-- Recommendations -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Recommend Us a Song to Review</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter the song name and artist below and you may see your favourite song on our page!</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter song" style="width:100%">
+            <input class="w3-input w3-border" type="text" placeholder="Enter artist" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Submit</button></p>
+        </div>
+      </div>
+
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">THANK YOU FOR YOUR RECOMMENDATION</h2>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-dark-grey" style="padding: 32px;">
+      <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"
+        ><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a
+      >
+    </footer>
+
+    <script>
+      // Toggle between hiding and showing blog replies/comments
+      document.getElementById("myBtn").click();
+      function myFunction(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+
+      function likeFunction(x) {
+        x.style.fontWeight = "bold";
+        x.innerHTML = "✓ Liked";
+      }
+    </script>
+  </body>
+</html>
